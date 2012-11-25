@@ -1,5 +1,8 @@
-package eu.areamobile_android_apps.logclient;
+package eu.areamobile_android_apps.logclient.activities;
 
+import eu.areamobile_android_apps.logclient.R;
+import eu.areamobile_android_apps.logclient.R.id;
+import eu.areamobile_android_apps.logclient.R.layout;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;

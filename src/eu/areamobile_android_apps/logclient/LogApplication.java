@@ -1,10 +1,14 @@
 package eu.areamobile_android_apps.logclient;
 
-import java.util.ArrayList;
+import eu.areamobile_android_apps.logclient.bean.Comments;
+import eu.areamobile_android_apps.logclient.bean.SingleComment;
 
 import android.app.Application;
 
 public class LogApplication extends Application {
+
+	public static final String LOGCLIENT_PREFERENCES = "eu.areamobile_android_apps.logclient.PREFERENCES";
+	public static final String LOGCLIENT_LASTDOWNLOAD = "eu.areamobile_android_apps.logclient.LASTDOWNLOAD";
 
 	private Comments mComments;
 	

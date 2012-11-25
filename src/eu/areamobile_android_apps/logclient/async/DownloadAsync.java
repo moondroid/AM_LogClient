@@ -1,13 +1,15 @@
-package eu.areamobile_android_apps.logclient;
+package eu.areamobile_android_apps.logclient.async;
 
 import com.google.gson.Gson;
 
 import eu.areamobile.android.net.Http;
+import eu.areamobile_android_apps.logclient.bean.Comments;
+import eu.areamobile_android_apps.logclient.bean.JsonCommentsRequest;
 import android.content.Context;
 import android.os.AsyncTask;
 import android.util.Log;
 
-class DownloadAsync extends AsyncTask<Context, Integer, String> {
+public class DownloadAsync extends AsyncTask<Context, Integer, String> {
 
 	private final static String COMMENT_SERVICE = "http://lab.areamobile.eu/AMRevolution/CommentService.php";
 

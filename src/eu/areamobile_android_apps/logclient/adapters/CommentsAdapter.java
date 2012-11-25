@@ -1,8 +1,14 @@
-package eu.areamobile_android_apps.logclient;
+package eu.areamobile_android_apps.logclient.adapters;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
+
+import eu.areamobile_android_apps.logclient.R;
+import eu.areamobile_android_apps.logclient.R.id;
+import eu.areamobile_android_apps.logclient.R.layout;
+import eu.areamobile_android_apps.logclient.bean.Comments;
+import eu.areamobile_android_apps.logclient.bean.SingleComment;
 
 import android.content.Context;
 import android.view.LayoutInflater;

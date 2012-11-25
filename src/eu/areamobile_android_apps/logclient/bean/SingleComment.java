@@ -1,4 +1,4 @@
-package eu.areamobile_android_apps.logclient;
+package eu.areamobile_android_apps.logclient.bean;
 
 public class SingleComment {
 

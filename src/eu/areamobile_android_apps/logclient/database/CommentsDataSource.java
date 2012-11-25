@@ -1,10 +1,10 @@
-package database;
+package eu.areamobile_android_apps.logclient.database;
 
 import java.util.ArrayList;
 import java.util.List;
 
-import eu.areamobile_android_apps.logclient.Comments;
-import eu.areamobile_android_apps.logclient.SingleComment;
+import eu.areamobile_android_apps.logclient.bean.Comments;
+import eu.areamobile_android_apps.logclient.bean.SingleComment;
 
 import android.content.ContentResolver;
 import android.content.ContentValues;

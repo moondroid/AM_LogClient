@@ -1,9 +1,10 @@
-package eu.areamobile_android_apps.logclient;
+package eu.areamobile_android_apps.logclient.services;
 
 import com.google.gson.Gson;
 
 import eu.areamobile.android.net.Http;
-import eu.areamobile_android_apps.logclient.MainActivity.DownloadCompletedReceiver;
+import eu.areamobile_android_apps.logclient.receivers.DownloadCompletedReceiver;
+import eu.areamobile_android_apps.logclient.bean.JsonCommentsRequest;
 import android.app.IntentService;
 import android.content.Intent;
 import android.util.Log;

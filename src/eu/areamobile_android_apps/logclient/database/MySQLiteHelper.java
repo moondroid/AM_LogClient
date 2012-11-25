@@ -1,4 +1,4 @@
-package database;
+package eu.areamobile_android_apps.logclient.database;
 
 import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
