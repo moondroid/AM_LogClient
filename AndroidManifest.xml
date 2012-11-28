@@ -26,6 +26,7 @@
         
         <activity android:name=".activities.SendActivity" android:label="@string/title_activity_send"></activity><service android:name=".services.DownloadService"></service>
         <service android:name=".services.UploadService"></service>
+        <provider android:name=".database.CommentsProvider" android:authorities="eu.areamobile_android_apps.logclient.contentprovider"></provider>
     </application>
 
 </manifest>
